@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Currency</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_chart">Chart</string>
+    <string name="title_activity_convert">Convert</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_ratings">Ratings</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail_currency">DetailCurrency</string>
+    <string name="title_activity_detailcurrency">Detailcurrency</string>
+    <string name="action_share" />
+</resources>
