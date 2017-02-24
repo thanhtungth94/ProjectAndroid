@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                android:background="#47677e"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_height="70dp">
+
+        <ImageView android:layout_width="70dp"
+                   android:id="@+id/imageAudio"
+                   android:src="@drawable/violin"
+                   android:scaleType="centerInside"
+                   android:layout_height="match_parent"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:id="@+id/llItem"
+                      android:layout_height="match_parent">
+
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_weight="1"
+                      android:id="@+id/tvTitle"
+                      android:text="Title"
+                android:textColor="@android:color/holo_blue_dark"
+                      style="?android:attr/textAppearanceMedium"
+                      android:paddingLeft="10dp"
+                      android:gravity="center_vertical"
+                      android:layout_height="0dp"/>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_weight="1"
+                          android:orientation="horizontal"
+                          android:layout_height="0dp">
+
+                <TextView android:layout_width="0dp"
+                          android:layout_weight="3"
+                          android:id="@+id/tvCaSy"
+                          android:text="Artist"
+                    android:textColor="@android:color/holo_blue_dark"
+
+                          android:paddingLeft="10dp"
+                          android:gravity="center_vertical"
+                          android:layout_height="match_parent"/>
+
+                <TextView android:layout_width="0dp"
+                          android:layout_weight="1"
+                          android:id="@+id/tvThoiGian"
+                          android:text="0:21"
+                    android:textColor="@android:color/holo_blue_dark"
+                          android:gravity="center"
+                          android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
